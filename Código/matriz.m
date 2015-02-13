@@ -17,7 +17,7 @@ for i=2:n
 end
     
 % Creamos la nueva A sdp
-A = U*D*V;
+A = U*D*V';
 A = A'*A;
 
 % Generamos el vector g
