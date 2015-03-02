@@ -34,7 +34,7 @@ n = size(A);
 n = n(1);
 r0 = g - A * x;
 d = r0;
-iter = 1;
+iter = 0;
 
 while(iter < n && norm(r0) > tol)
 
